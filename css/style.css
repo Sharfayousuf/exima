@@ -1,0 +1,265 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*heading seaction*/
+
+header{
+ width: 100%;
+ float: left;
+ padding: 20px 0px;
+ background-color: white;
+}  
+
+.logo{
+ width: 30%;
+ float: left;
+}
+
+.logo img{
+
+}
+
+.menu{
+ width: 70%;
+ float: left;
+}
+
+nav ul{
+ list-style: none;
+}
+
+nav ul li{
+ display: inline-block;
+ margin-left: 50px;
+}
+
+nav ul li a{
+ text-decoration: none;
+ font-size: 15px;
+ color: black;
+ transition: 0.4s ease-in-out;
+}
+
+nav ul li a:hover{
+         color:rgb(7, 184, 238);
+}
+
+
+
+/* banner section*/
+
+.banner{
+     background: url(../img/xcv.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     width:100%;
+     float: left;
+     padding: 20px 0px;
+}
+
+.banner-main{
+     width: 60%;
+     margin:0 auto;
+     text-align: center;
+     padding-top: 200px;
+}
+
+.banner-main h1{
+     color: white;
+     font-size: 30px;
+}
+
+
+
+
+.banner-main p{
+      color: white;
+      font-size: 20px;
+      margin-bottom:80px;
+}
+
+.banner-btn{
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: 99c50a;
+  
+  font-size: 15px;
+}
+
+.banner-icons{
+     font-size: 30px;
+     margin-top: 60px;
+     margin-bottom:20px;
+}
+
+/* para section*/
+
+.para{
+   background-color: white;
+   width: 100%;
+   float:left;
+   padding: 20px 0px;
+}
+.para-one{
+   text-align: center;
+   margin-top: 80px;
+   font-size: 120px;
+}
+
+
+
+.para-main{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.para-main h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.para-main p{
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+/*service section*/
+
+.service{
+    width: 100%;
+    float:left;
+    padding: 20px 0px;
+}
+
+
+.service-one{
+    width: 70%;
+    float: left;
+    
+}
+
+
+
+
+
+
+.service-one h2{
+      margin-bottom:10px;
+}
+
+.service-one p{
+      margin-bottom: 40px;
+}
+
+.service-two{
+  width: 30%;
+  float: right;
+   text-align: center;
+     margin-top: 40px;
+}
+
+
+
+
+   
+
+
+
+.service-three h2{
+         margin-bottom: 10px;
+}
+
+.service-three p{
+  margin-bottom: 40px;
+}
+
+/*portfolio*/
+
+.portfolio{
+      width: 100%;
+      float: left;
+}
+
+.portfolio-one{
+      width: 33.33%;
+      float: left;
+
+}
+
+.portfolio-one img{
+
+}
+
+.portfolio-two{
+        width: 33.33%;
+        float: left;
+}
+
+.portfolio-two img{
+  
+}
+
+.portfolio-three{
+         width:33.33%;
+         float: left;
+}
+
+.portfolio-three img{
+  
+}
+
+.portfolio-four{
+  width:33.33%;
+  float: left;
+}
+
+.portfolio-four img{
+          margin-top: 15px;
+         margin-bottom: 60px;
+}
+.portfolio-five{
+  width:33.33%;
+  float: left;
+}
+
+.portfolio-five img{
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+.portfolio-six{
+  width:33.33%;
+  float: left;
+}
+
+.portfolio-six img{
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+/*contact section*/
+
+.contact{
+   
+   width:100%;
+   float: left;
+   padding: 20px;
+ 
+}
+.contact{
+     text-align: center;
+     color:azure;
+    
+}
